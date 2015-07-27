@@ -45,24 +45,30 @@ main {
 }
 .input-box {
 	display: inline-block;
-	width:150px;
+	width:80px;
+	height:18px;
 	padding-right: 20px;
 	text-align: left;
 	border:1px solid black;
+	vertical-align: center;
 }
 .new-game {
 	display: inline-block;
 	width:80px;
+	height:18px;
  	margin: 0 auto;
 	text-align: center;
 	border:1px solid black;
 	border-radius: 5px;
 	padding:5px;
+	vertical-align: center;
 }
 .definition {
 	display: block;
 	width:300px;
-	text-align: center;
+	text-align: left;
+	margin-top:12px;
+	margin-bottom:12px;
 }
 .center-container {
 	display: block;
@@ -70,4 +76,13 @@ main {
  	margin: 0 auto;
 	text-align: center;
 }
+input {
+	font-size: 1em;
+}
+a {
+	text-decoration: none;
+	color:black;
+}
+
+
 
